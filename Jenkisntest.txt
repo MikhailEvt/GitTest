@@ -1,0 +1,42 @@
+Trigger parametrized job
+
+#JOB B
+
+pipeline {
+    agent any
+
+    stages {
+        stage('SendMail') {
+            steps {
+                sh '''
+                echo $JOBNAME
+                $TO_ADDRESS
+                '''
+            }
+        }
+    }
+}
+
+#JOB A
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Do  smth') {
+            steps {
+                sh '''
+                ecgo
+                '''
+            }
+        }
+    }
+    post{
+      failure{
+        build job: 'JobB', parameters: [string(name: 'JOBNAME', value: env.JOB_NAME), string(name: 'TO_ADDRESS', value:'echo HELLO!!!')] 
+      }
+        
+    }
+}
+
+
