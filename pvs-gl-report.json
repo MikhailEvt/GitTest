@@ -18,7 +18,8 @@
     "locations": {
       "path": "gtest-internal-inl.h",
        "lines": {
-         "begin": 727
+         "begin": 727,
+         "end": 727
       }
     }
   }
