@@ -1,12 +1,12 @@
 [
   {
-    "description": "'unused' is assigned a value but never used.",
+    "description": "V122: Memsize type is used in the struct/class.",
     "fingerprint": "7815696ecbf1c96e6894b779456d330e",
     "severity": "minor",
     "location": {
-      "path": "lib/index.js",
+      "path": "gtest-internal-inl.h",
       "lines": {
-        "begin": 42
+        "begin": 795
       }
     }
   }
