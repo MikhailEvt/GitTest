@@ -17,15 +17,17 @@
     "severity": "major",
     "locations": {
       "path": "gtest-internal-inl.h",
-        "lines": {
-          "begin": 727
+       "lines": {
+         "begin": 727
       }
     }
-    "other_locations" {[
-      "path": "gtest-internal-inl.h",
-      "lines": {
-        "begin": 724
-      }]
-    }
+    "other_locations": {
+    [
+  {
+    "path": "gtest-internal-inl.h",
+    "lines": { "begin": 724 }
+  }
+]
+  }
   }
 ]
