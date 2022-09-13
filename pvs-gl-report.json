@@ -16,7 +16,7 @@
     "fingerprint": "asdasdasd122",
     "severity": "minor",
     "location": {
-      "path": "gtest-internal-inl.h",
+      "path": "gtest-internal-inl1.h",
       "lines": {
         "begin": 795,
         "end": 795
@@ -28,7 +28,7 @@
     "fingerprint": "asdasdasd12f",
     "severity": "critical",
     "locations": {
-      "path": "gtest-internal-inl.h",
+      "path": "gtest-internal-inl2.h",
        "lines": {
          "begin": 818,
          "end": 818
