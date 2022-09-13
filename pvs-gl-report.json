@@ -6,8 +6,8 @@
     "locations": {
       "path": "gtest-internal-inl.h",
        "lines": {
-         "begin": 727,
-         "end": 727
+         "begin": 799,
+         "end": 799
       }
     }
   },
@@ -22,5 +22,17 @@
         "end": 795
       }
     }
-  }
+  },
+  {
+    "description": "V156: Call of function 'Format' with variable number of arguments. Second argument has memsize type.",
+    "fingerprint": "asdasdasd12f",
+    "severity": "critical",
+    "locations": {
+      "path": "gtest-internal-inl.h",
+       "lines": {
+         "begin": 818,
+         "end": 818
+      }
+    }
+  },
 ]
