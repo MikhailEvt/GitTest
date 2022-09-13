@@ -1,16 +1,11 @@
 [{
-	"type": "issue",
-	"check_name": "V122",
-	"description": "Memsize type is used in the struct/class.",
-	"categories": ["Bug Risk"],
+	"description": "V122: Memsize type is used in the struct/class.",
+	"severity": "minor",
 	"location": {
-		"path": "\/builds\/gtest-internal-inl.h",
+		"path": "./gtest-internal-inl.h",
 		"lines": {
-			"begin": 795,
-			"end": 795
+			"begin": 795
 		}
-	},
-	"remediation_points": 60000,
-	"engine_name": "pvs-studio",
+	}
 	"fingerprint": "238061685"
 }]
