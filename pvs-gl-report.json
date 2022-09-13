@@ -1,25 +1,25 @@
 [
   {
-    "description": "V122: Memsize type is used in the struct/class.",
-    "fingerprint": "7815696ecbf1c96e6894b779456d330e",
-    "severity": "minor",
-    "location": {
-      "path": "gtest-internal-inl.h",
-      "lines": {
-        "begin": 795,
-        "end": 795
-      }
-    }
-  },
-  {
     "description": "V659: Declarations of functions with 'gtest_trace_stack' name differ in the 'const' keyword only, but the bodies of these functions have different composition. This is suspicious and can possibly be an error. Check lines: 724, 727.",
-    "fingerprint": "7815696ecbf1c96e6894b779456d330s",
+    "fingerprint": "asdasdasd123",
     "severity": "major",
     "locations": {
       "path": "gtest-internal-inl.h",
        "lines": {
          "begin": 727,
          "end": 727
+      }
+    }
+  },
+  {
+    "description": "V122: Memsize type is used in the struct/class.",
+    "fingerprint": "asdasdasd122",
+    "severity": "minor",
+    "location": {
+      "path": "gtest-internal-inl.h",
+      "lines": {
+        "begin": 795,
+        "end": 795
       }
     }
   }
