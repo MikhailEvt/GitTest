@@ -5,8 +5,8 @@
     "severity": "critical",
     "locations": {
       "path": "gtest-internal-inl.h",
-       "lines": {
-         "begin": 818
+      "lines": {
+        "begin": 818
       }
     }
   },
@@ -16,8 +16,8 @@
     "severity": "major",
     "locations": {
       "path": "gtest-internal-inl.h",
-       "lines": {
-         "begin": 799
+      "lines": {
+        "begin": 799
       }
     }
   }
