@@ -1,8 +1,8 @@
 [
   
   {
-    "description": "V156: Call of function 'Format' with variable number of arguments. Second argument has memsize type.",
-    "fingerprint": "asdasdasd12f",
+    "description": "V156",
+    "fingerprint": "asdgsdgsdgssdg",
     "severity": "critical",
     "locations": {
       "path": "gtest-internal-inl.h",
@@ -12,8 +12,8 @@
     }
   },
   {
-    "description": "V659: Declarations of functions with 'gtest_trace_stack' name differ in the 'const' keyword only, but the bodies of these functions have different composition. This is suspicious and can possibly be an error. Check lines: 724, 727.",
-    "fingerprint": "asdasdasd123",
+    "description": "V659",
+    "fingerprint": "etjejejetjetj",
     "severity": "major",
     "locations": {
       "path": "gtest-internal-inl.h",
