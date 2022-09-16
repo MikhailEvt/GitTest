@@ -1,7 +1,7 @@
 [
   {
     "description": "V122: Memsize type is used in the struct/class.",
-    "fingerprint": "asdasdasd122",
+    "fingerprint": "asdasdasd121",
     "severity": "minor",
     "location": {
       "path": "gtest-internal-inl.h",
@@ -23,7 +23,7 @@
   },
   {
     "description": "V111: Call of function 'Format' with variable number of arguments. Third argument has memsize type.",
-    "fingerprint": "asdasdasd122",
+    "fingerprint": "asdasdasd123",
     "severity": "major",
     "location": {
       "path": "gtest-internal-inl.h",
