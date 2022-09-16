@@ -11,6 +11,17 @@
     }
   },
   {
+    "description": "V122: Memsize type is used in the struct/class.",
+    "fingerprint": "asdasdasd122",
+    "severity": "minor",
+    "location": {
+      "path": "gtest-internal-inl.h",
+      "lines": {
+        "begin": 795
+      }
+    }
+  },
+  {
     "description": "V659",
     "fingerprint": "etjejejetjetj",
     "severity": "major",
