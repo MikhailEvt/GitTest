@@ -12,10 +12,7 @@
     }
   },
   {
-    "type": "issue",
-    "check_name": "Bug Risk/Unused Variable",
     "description": "V122: Memsize type is used in the struct/class.",
-    "categories": ["Bug Risk"]
     "fingerprint": "asdasdasd122",
     "severity": "minor",
     "location": {
