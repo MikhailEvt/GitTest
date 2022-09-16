@@ -13,7 +13,7 @@
   {
     "description": "V108: Incorrect index type: str[not a memsize-type]. Use memsize type instead.",
     "fingerprint": "asdasdasd122",
-    "severity": "minor",
+    "severity": "critical",
     "location": {
       "path": "gtest-internal-inl.h",
       "lines": {
@@ -24,7 +24,7 @@
   {
     "description": "V111: Call of function 'Format' with variable number of arguments. Third argument has memsize type.",
     "fingerprint": "asdasdasd122",
-    "severity": "minor",
+    "severity": "major",
     "location": {
       "path": "gtest-internal-inl.h",
       "lines": {
