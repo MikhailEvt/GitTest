@@ -12,7 +12,10 @@
     }
   },
   {
+    "type": "issue",
+    "check_name": "Bug Risk/Unused Variable",
     "description": "V122: Memsize type is used in the struct/class.",
+    "categories": ["Bug Risk"]
     "fingerprint": "asdasdasd122",
     "severity": "minor",
     "location": {
@@ -21,7 +24,24 @@
         "begin": 795,
         "end": 795
       }
-    }
+    },
+    "trace": {
+    "locations": [{
+      "path": "gtest-internal-inl1.h",
+        "lines": {
+          "begin": 13,
+          "end": 14
+        }
+      },
+      {
+        "path": "gtest-internal-inl1.h",
+        "lines": {
+          "begin": 19,
+          "end": 20
+        }
+      }],
+    "stacktrace": false
+  },
   },
   {
     "description": "V156: Call of function 'Format' with variable number of arguments. Second argument has memsize type.",
