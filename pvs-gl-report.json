@@ -5,10 +5,9 @@
     "fingerprint": "asdasdasd12f",
     "severity": "critical",
     "locations": {
-      "path": "gtest-internal-inl2.h",
+      "path": "gtest-internal-inl.h",
        "lines": {
-         "begin": 818,
-         "end": 818
+         "begin": 818
       }
     }
   },
@@ -19,8 +18,7 @@
     "locations": {
       "path": "gtest-internal-inl.h",
        "lines": {
-         "begin": 799,
-         "end": 799
+         "begin": 799
       }
     }
   }
