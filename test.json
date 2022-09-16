@@ -1,0 +1,156 @@
+[
+  {
+    "description": "V3001: There are identical sub-expressions 'i != 0' to the left and to the right of the '&&' operator.",
+    "fingerprint": "2056552227",
+    "location": {
+      "line": {
+        "begin": 21
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V3004: The 'then' statement is equivalent to the 'else' statement.",
+    "fingerprint": "664542500",
+    "location": {
+      "line": {
+        "begin": 28
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V3137: The 'result' variable is assigned but is not used by the end of the function.",
+    "fingerprint": "2070168257",
+    "location": {
+      "line": {
+        "begin": 31
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3037: An odd sequence of assignments of this kind: A = B; B = A;. Check lines: 38, 36.",
+    "fingerprint": "558430589",
+    "location": {
+      "line": {
+        "begin": 38
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3137: The 'b' variable is assigned but is not used by the end of the function.",
+    "fingerprint": "1891790465",
+    "location": {
+      "line": {
+        "begin": 38
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3137: The 'c' variable is assigned but is not used by the end of the function.",
+    "fingerprint": "4041371270",
+    "location": {
+      "line": {
+        "begin": 37
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3053: An excessive expression. Examine the substrings 'abc' and 'abcd'.",
+    "fingerprint": "3604983835",
+    "location": {
+      "line": {
+        "begin": 43
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V3158: The '5 % 5' expression always evaluates to 0. Absolute values of both operands are equal.",
+    "fingerprint": "1144411859",
+    "location": {
+      "line": {
+        "begin": 48
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3137: The 'str' variable is assigned but is not used by the end of the function.",
+    "fingerprint": "1195006929",
+    "location": {
+      "line": {
+        "begin": 45
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3176: The '&=' operator is redundant because the right operand 'status' is always true.",
+    "fingerprint": "1736829001",
+    "location": {
+      "line": {
+        "begin": 57
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3137: The 'currentStatus' variable is assigned but is not used by the end of the function.",
+    "fingerprint": "1968478368",
+    "location": {
+      "line": {
+        "begin": 57
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3003: The use of 'if (A) {...} else if (A) {...}' pattern was detected. There is a probability of logical error presence. Check lines: 65, 69.",
+    "fingerprint": "2815556254",
+    "location": {
+      "line": {
+        "begin": 65
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V3002: The switch statement does not cover all values of the 'Actions' enum: Reset.",
+    "fingerprint": "3920338812",
+    "location": {
+      "line": {
+        "begin": 75
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V3083: Unsafe invocation of event 'MyEvent', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+    "fingerprint": "3558718042",
+    "location": {
+      "line": {
+        "begin": 99
+      },
+      "path": "|?|\\SonarSampleCs\\Test.cs"
+    },
+    "severity": "major"
+  }
+]
