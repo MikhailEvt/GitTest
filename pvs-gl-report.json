@@ -31,5 +31,38 @@
         "begin": 818
       }
     }
+  },
+  {
+    "description": "V122: Memsize type is used in the struct/class.",
+    "fingerprint": "asdasdasd124",
+    "severity": "minor",
+    "location": {
+      "path": "gtest-internal-inl.h",
+      "lines": {
+        "begin": 84
+      }
+    }
+  },
+  {
+    "description": "V108: Incorrect index type: str[not a memsize-type]. Use memsize type instead.",
+    "fingerprint": "asdasdasd125",
+    "severity": "critical",
+    "location": {
+      "path": "gtest-internal-inl.h",
+      "lines": {
+        "begin": 85
+      }
+    }
+  },
+  {
+    "description": "V111: Call of function 'Format' with variable number of arguments. Third argument has memsize type.",
+    "fingerprint": "asdasdasd126",
+    "severity": "major",
+    "location": {
+      "path": "gtest-internal-inl.h",
+      "lines": {
+        "begin": 86
+      }
+    }
   }
 ]
