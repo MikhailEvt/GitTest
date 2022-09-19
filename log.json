@@ -1,0 +1,343 @@
+[
+  {
+    "description": "V1037: Two or more case-branches perform the same actions. Check lines: 16039, 16053",
+    "fingerprint": "1697601368",
+    "location": {
+      "line": {
+        "begin": 16039
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/json.hpp"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V557: Array underrun is possible. The value of 'rankedenc_hint' index could reach -1.",
+    "fingerprint": "1024429233",
+    "location": {
+      "line": {
+        "begin": 1839
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V557: Array underrun is possible. The value of 'rankedenc_hint' index could reach -1.",
+    "fingerprint": "1024428721",
+    "location": {
+      "line": {
+        "begin": 1841
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V590: Consider inspecting the '('0' <= c) && (c <= '0')' expression. The expression is excessive or contains a misprint.",
+    "fingerprint": "4122231697",
+    "location": {
+      "line": {
+        "begin": 2475
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V557: Array overrun is possible. The 'MyRankedEncName' function processes value '[0..67]'. Inspect the first argument. Check lines: 1264, 3365.",
+    "fingerprint": "2250506634",
+    "location": {
+      "line": {
+        "begin": 1264
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V557: Array overrun is possible. The value of 'rankedencoding' index could reach 67.",
+    "fingerprint": "472712431",
+    "location": {
+      "line": {
+        "begin": 3366
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'enc < 0' is always false.",
+    "fingerprint": "1364131631",
+    "location": {
+      "line": {
+        "begin": 4618
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'enc2 < 0' is always false.",
+    "fingerprint": "2727849974",
+    "location": {
+      "line": {
+        "begin": 4620
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V523: The 'then' statement is equivalent to the 'else' statement.",
+    "fingerprint": "657518085",
+    "location": {
+      "line": {
+        "begin": 5252
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V1016: Expression 'enc < 0' is always false.",
+    "fingerprint": "1063177807",
+    "location": {
+      "line": {
+        "begin": 85
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det_hint_code.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'NUM_ENCODINGS <= enc' is always true.",
+    "fingerprint": "649287087",
+    "location": {
+      "line": {
+        "begin": 95
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det_hint_code.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'enc >= 0' is always true.",
+    "fingerprint": "2492194179",
+    "location": {
+      "line": {
+        "begin": 257
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/util/encodings/encodings.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'enc < 0' is always false.",
+    "fingerprint": "2491577643",
+    "location": {
+      "line": {
+        "begin": 502
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/util/encodings/encodings.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1016: Expression 'enc < 0' is always false.",
+    "fingerprint": "2491577659",
+    "location": {
+      "line": {
+        "begin": 511
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/compact_enc_det/util/encodings/encodings.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V703: It is odd that the 'help' field in derived class 'Command' overwrites field in base class 'Base'. Check lines: args.hxx:1682, args.hxx:785.",
+    "fingerprint": "2659490491",
+    "location": {
+      "line": {
+        "begin": 1682
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/args.hxx"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V690: The 'RE' class implements a copy constructor, but lacks the copy assignment operator. It is dangerous to use such a class.",
+    "fingerprint": "4259750499",
+    "location": {
+      "line": {
+        "begin": 893
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V690: The 'NativeArray' class implements a copy constructor, but lacks the copy assignment operator. It is dangerous to use such a class.",
+    "fingerprint": "2781466074",
+    "location": {
+      "line": {
+        "begin": 1094
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V690: The copy constructor is declared as private in the 'Iterator' class, but the default copy assignment operator will still be generated by compiler. It is dangerous to use such a class.",
+    "fingerprint": "465450161",
+    "location": {
+      "line": {
+        "begin": 309
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V601: The bool type is implicitly cast to the class type.",
+    "fingerprint": "1531554639",
+    "location": {
+      "line": {
+        "begin": 1203
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V595: The 'test' pointer was utilized before it was verified against nullptr. Check lines: 2861, 2864.",
+    "fingerprint": "2398663762",
+    "location": {
+      "line": {
+        "begin": 2861
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest.cc"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V560: A part of conditional expression is always true: os_stack_trace.c_str() != nullptr.",
+    "fingerprint": "2216865317",
+    "location": {
+      "line": {
+        "begin": 5301
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1004: The 'flagfile' pointer was used unsafely after it was verified against nullptr. Check lines: 6533, 6538.",
+    "fingerprint": "4107671601",
+    "location": {
+      "line": {
+        "begin": 6538
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1028: Possible overflow. Consider casting operands of the 'getpagesize() * 2' operator to the 'size_t' type, not the result.",
+    "fingerprint": "2637375092",
+    "location": {
+      "line": {
+        "begin": 1358
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest-death-test.cc"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V1004: The 'file' pointer was used unsafely after it was verified against nullptr. Check lines: 1173, 1178.",
+    "fingerprint": "3944998340",
+    "location": {
+      "line": {
+        "begin": 1178
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/src/gtest-port.cc"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1077: The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+    "fingerprint": "1951481163",
+    "location": {
+      "line": {
+        "begin": 897
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1077: The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+    "fingerprint": "1951481103",
+    "location": {
+      "line": {
+        "begin": 900
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V1077: The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+    "fingerprint": "1951481095",
+    "location": {
+      "line": {
+        "begin": 902
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V730: Not all members of a class are initialized inside the constructor. Consider inspecting: array_, size_, clone_.",
+    "fingerprint": "1095264589",
+    "location": {
+      "line": {
+        "begin": 1112
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V730: Not all members of a class are initialized inside the constructor. Consider inspecting: buffer_.",
+    "fingerprint": "1109679738",
+    "location": {
+      "line": {
+        "begin": 287
+      },
+      "path": "/builds/evtihevich/convertertest/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h"
+    },
+    "severity": "critical"
+  },
+  {
+    "description": "V730: It is possible that not all members of a class are initialized inside the constructor. Consider inspecting: _val.",
+    "fingerprint": "2849103744",
+    "location": {
+      "line": {
+        "begin": 543
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/backward.hpp"
+    },
+    "severity": "major"
+  },
+  {
+    "description": "V730: Not all members of a class are initialized inside the constructor. Consider inspecting: _snippets.",
+    "fingerprint": "842741247",
+    "location": {
+      "line": {
+        "begin": 3735
+      },
+      "path": "/builds/evtihevich/convertertest/ThirdParty/backward.hpp"
+    },
+    "severity": "critical"
+  }
+]
