@@ -1,0 +1,850 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V1037",
+      "cwe": 691,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Two or more case-branches perform the same actions. Check lines: 16039, 16053",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 16039,
+          "file": "ThirdParty/json.hpp",
+          "line": 16039,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -122855105,
+            "nextLine": 2337,
+            "previousLine": 123
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 16053,
+          "file": "ThirdParty/json.hpp",
+          "line": 16053
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V557",
+      "cwe": 787,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Array underrun is possible. The value of 'rankedenc_hint' index could reach -1.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1839,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 1839,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -669560362,
+            "nextLine": 3053,
+            "previousLine": 46343369
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-ARR30-C"
+    },
+    {
+      "code": "V557",
+      "cwe": 787,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Array underrun is possible. The value of 'rankedenc_hint' index could reach -1.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1841,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 1841,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -669556266,
+            "nextLine": 125,
+            "previousLine": 3053
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-ARR30-C"
+    },
+    {
+      "code": "V590",
+      "cwe": 571,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "Consider inspecting the '('0' <= c) && (c <= '0')' expression. The expression is excessive or contains a misprint.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 2475,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 2475,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -268092393,
+            "nextLine": 382611,
+            "previousLine": 334739
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V557",
+      "cwe": 628,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "Array overrun is possible. The 'MyRankedEncName' function processes value '[0..67]'. Inspect the first argument. Check lines: 1264, 3365.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1264,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 1264,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -1205889748,
+            "nextLine": 125,
+            "previousLine": 862605332
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 3365,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 3365
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP37-C"
+    },
+    {
+      "code": "V557",
+      "cwe": 119,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Array overrun is possible. The value of 'rankedencoding' index could reach 67.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 3366,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 3366,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 964042340,
+            "nextLine": 125,
+            "previousLine": -778172026
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-ARR30-C"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc < 0' is always false.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 4618,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 4618,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 376587879,
+            "nextLine": -313408356,
+            "previousLine": 2116865747
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc2 < 0' is always false.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 4620,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 4620,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 753682023,
+            "nextLine": -625327216,
+            "previousLine": -313408356
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V523",
+      "cwe": 691,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "The 'then' statement is equivalent to the 'else' statement.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 5252,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 5252,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 3053,
+            "nextLine": 314042019,
+            "previousLine": 314042019
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 5250,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det.cc",
+          "line": 5250
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc < 0' is always false.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 85,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det_hint_code.cc",
+          "line": 85,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 46009,
+            "nextLine": 44663,
+            "previousLine": -361891359
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'NUM_ENCODINGS <= enc' is always true.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 95,
+          "file": "ThirdParty/compact_enc_det/compact_enc_det/compact_enc_det_hint_code.cc",
+          "line": 95,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -1565865714,
+            "nextLine": 934923064,
+            "previousLine": 1795232558
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc >= 0' is always true.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 257,
+          "file": "ThirdParty/compact_enc_det/util/encodings/encodings.cc",
+          "line": 257,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -217619620,
+            "nextLine": 125,
+            "previousLine": 535359776
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc < 0' is always false.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 502,
+          "file": "ThirdParty/compact_enc_det/util/encodings/encodings.cc",
+          "line": 502,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -522177378,
+            "nextLine": -878538213,
+            "previousLine": -839764672
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V1016",
+      "cwe": 681,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Expression 'enc < 0' is always false.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 511,
+          "file": "ThirdParty/compact_enc_det/util/encodings/encodings.cc",
+          "line": 511,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -522177378,
+            "nextLine": 35529571,
+            "previousLine": -1972513930
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT50-CPP"
+    },
+    {
+      "code": "V703",
+      "cwe": 0,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "It is odd that the 'help' field in derived class 'Command' overwrites field in base class 'Base'. Check lines: args.hxx:1682, args.hxx:785.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1682,
+          "file": "ThirdParty/args.hxx",
+          "line": 1682,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 2818339,
+            "nextLine": 360769811,
+            "previousLine": 2818381
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 785,
+          "file": "ThirdParty/args.hxx",
+          "line": 785
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-DCL01-C"
+    },
+    {
+      "code": "V690",
+      "cwe": 0,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'RE' class implements a copy constructor, but lacks the copy assignment operator. It is dangerous to use such a class.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 893,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+          "line": 893,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 9380881,
+            "nextLine": 5816,
+            "previousLine": 1218435578
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V690",
+      "cwe": 0,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'NativeArray' class implements a copy constructor, but lacks the copy assignment operator. It is dangerous to use such a class.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1094,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h",
+          "line": 1094,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 4672221,
+            "nextLine": 5816,
+            "previousLine": 1459645110
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V690",
+      "cwe": 0,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The copy constructor is declared as private in the 'Iterator' class, but the default copy assignment operator will still be generated by compiler. It is dangerous to use such a class.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 309,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h",
+          "line": 309,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -270480584,
+            "nextLine": 5816,
+            "previousLine": 0
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V601",
+      "cwe": 704,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The bool type is implicitly cast to the class type.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1203,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 1203,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 1029781224,
+            "nextLine": -1951988672,
+            "previousLine": -1623879451
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT36-C"
+    },
+    {
+      "code": "V595",
+      "cwe": 476,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "The 'test' pointer was utilized before it was verified against nullptr. Check lines: 2861, 2864.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 2861,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 2861,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 176553,
+            "nextLine": 125,
+            "previousLine": 358495196
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 2864,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 2864
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP12-C"
+    },
+    {
+      "code": "V560",
+      "cwe": 571,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "A part of conditional expression is always true: os_stack_trace.c_str() != nullptr.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 5301,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 5301,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -1801181638,
+            "nextLine": 1905509475,
+            "previousLine": 0
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V1004",
+      "cwe": 628,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'flagfile' pointer was used unsafely after it was verified against nullptr. Check lines: 6533, 6538.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 6538,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 6538,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 672749965,
+            "nextLine": -872672989,
+            "previousLine": 477959019
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 6533,
+          "file": "build/_deps/googletest-src/googletest/src/gtest.cc",
+          "line": 6533
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP34-C"
+    },
+    {
+      "code": "V1028",
+      "cwe": 190,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "Possible overflow. Consider casting operands of the 'getpagesize() * 2' operator to the 'size_t' type, not the result.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1358,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-death-test.cc",
+          "line": 1358,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 390958202,
+            "nextLine": -227684867,
+            "previousLine": -1352027935
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-INT30-C"
+    },
+    {
+      "code": "V1004",
+      "cwe": 628,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'file' pointer was used unsafely after it was verified against nullptr. Check lines: 1173, 1178.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1178,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-port.cc",
+          "line": 1178,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 42046797,
+            "nextLine": 707715,
+            "previousLine": -1215826100
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1173,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-port.cc",
+          "line": 1173
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP34-C"
+    },
+    {
+      "code": "V1077",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 897,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+          "line": 897,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -1642517870,
+            "nextLine": 0,
+            "previousLine": 749094676
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 761,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-port.cc",
+          "line": 761
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V1077",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 900,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+          "line": 900,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 1775612140,
+            "nextLine": 0,
+            "previousLine": 234388721
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 761,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-port.cc",
+          "line": 761
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V1077",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "The 'RE' constructor contains potentially uninitialized members. Inspect the following: partial_regex_.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 902,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h",
+          "line": 902,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 814612473,
+            "nextLine": 2049,
+            "previousLine": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 761,
+          "file": "build/_deps/googletest-src/googletest/src/gtest-port.cc",
+          "line": 761
+        }
+      ],
+      "projects": [],
+      "sastId": ""
+    },
+    {
+      "code": "V730",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "Not all members of a class are initialized inside the constructor. Consider inspecting: array_, size_, clone_.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 1112,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h",
+          "line": 1112,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -1422961325,
+            "nextLine": -520380573,
+            "previousLine": 4257734
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP53-CPP"
+    },
+    {
+      "code": "V730",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "Not all members of a class are initialized inside the constructor. Consider inspecting: buffer_.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 287,
+          "file": "build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h",
+          "line": 287,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 561579723,
+            "nextLine": 0,
+            "previousLine": 45270
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP53-CPP"
+    },
+    {
+      "code": "V730",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 2,
+      "message": "It is possible that not all members of a class are initialized inside the constructor. Consider inspecting: _val.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 543,
+          "file": "ThirdParty/backward.hpp",
+          "line": 543,
+          "navigation": {
+            "columns": 0,
+            "currentLine": -195499190,
+            "nextLine": -1637228905,
+            "previousLine": 817863587
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP53-CPP"
+    },
+    {
+      "code": "V730",
+      "cwe": 457,
+      "falseAlarm": false,
+      "favorite": false,
+      "level": 1,
+      "message": "Not all members of a class are initialized inside the constructor. Consider inspecting: _snippets.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 2147483647,
+          "endLine": 3735,
+          "file": "ThirdParty/backward.hpp",
+          "line": 3735,
+          "navigation": {
+            "columns": 0,
+            "currentLine": 31577,
+            "nextLine": 22828340,
+            "previousLine": 0
+          }
+        }
+      ],
+      "projects": [],
+      "sastId": "CERT-EXP53-CPP"
+    }
+  ]
+}
